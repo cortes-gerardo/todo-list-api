@@ -1,4 +1,4 @@
-package com.cortesgerardo.todolistapi;
+package com.cortes_gerardo.todolistapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -15,22 +15,23 @@ The ToDo functionality will be kept simple; you can CRUD Lists and their respect
 - Java 14
 - Spring Boot 2.2.7
 - Maven 3.6.1
+
 ### Local Development
 One of the benefits of Sprint Boot is that it comes with an embedded web server. 
-Using the Maven build provided by the Spring Boot Initialzr, you'll get a .jar file inside the `/target` directory. 
+Using the Maven build provided by the _Spring Boot Initialzr_, you'll get a `.jar` file inside the `/target` directory. 
 You can use the `.jar` file to run the entire Spring application.
-``` sh
+```shell script
 # generates categorizer-0.0.1-SNAPSHOT.jar
-mvn clean install
+$ mvn clean install
 
 # runs the application using the embedded web server.
-java -jar target/todo-list-api-0.0.1-SNAPSHOT.jar
+$ java -jar target/todo-list-api-0.0.1-SNAPSHOT.jar
 ```
 
 ### Run Tests
-For running the tests you can type 
-``` sh
-mvn test
+For running the unit tests you can type 
+```shell script
+$ mvn test
 ```
 
 ---
